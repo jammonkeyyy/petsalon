@@ -24,11 +24,7 @@ public class OwnerController {
 	private OwnerRepository ownerRepository;
 	OwnerController(OwnerRepository ownerRepository){this.ownerRepository=ownerRepository;}
 
-	private static Resource<Owner> toResource(Owner owner) {
-		return new Resource<>(owner,
-				linkTo(methodOn(OwnerController.class).getOneOwner(owner.getId())).withSelfRel(),
-				linkTo(methodOn(OwnerController.class).getAllOwners()).withRel("owners"));
-	}
+
 	@PostMapping(path="add")
 	public @ResponseBody String addNewOwner (@RequestBody Owner owner) {
 		ownerRepository.save(owner);

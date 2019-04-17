@@ -30,5 +30,15 @@ public class OwnerController {
 	}
 ```
 ### 通过postman和Mysql查看运行的结果如下：
-
-![Image text]()
+#### owners表
+![Image text](https://github.com/jammonkeyyy/petsalon/blob/master/img/ownersTable.PNG)
+#### 查看owners表
+![Image text](https://github.com/jammonkeyyy/petsalon/blob/master/img/owners_get.PNG)
+#### 宠物表
+![Image text](https://github.com/jammonkeyyy/petsalon/blob/master/img/petsTable.PNG)
+#### 查看宠物表
+![Image text](https://github.com/jammonkeyyy/petsalon/blob/master/img/pets_Get.PNG)
+#### 添加宠物
+![Image text](https://github.com/jammonkeyyy/petsalon/blob/master/img/pets_post.PNG)
+#### 查看添加后的数据库
+![Image text](https://github.com/jammonkeyyy/petsalon/blob/master/img/petMysql_get.PNG)
